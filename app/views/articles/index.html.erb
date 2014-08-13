@@ -1,0 +1,40 @@
+<div class="holepunch top">
+</div>
+
+<div class="holepunch middle">
+</div>
+
+<div class="holepunch bottom">
+</div>
+
+<div class="paper">
+  <h1>To Do List:</h1>
+   
+  <table>
+    <tr>
+      <th class="checkbox"></th>
+      <th class="task">Item</th>
+      <th class="description">Description</th>
+      <th></th>
+    </tr>
+   
+    <% @articles.each do |article| %>
+      <tr>
+        <td class="checkbox">
+            <a href="#"><div class="check"></div></a>
+        </td>
+        <td class="task"><%= article.title %></td>
+        <td class="description"><%= article.text %></td>
+        <td class="modify">
+          <%= link_to 'Edit', edit_article_path(article) %> |
+          <%= link_to 'Delete', article_path(article),
+                      method: :delete, data: { confirm: 'Are you sure?' } %>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+
+  <div class="add">
+    <%= link_to 'Add Item', new_article_path %>
+  </div>
+</div>

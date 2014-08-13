@@ -1,0 +1,128 @@
+body {
+    width: 550px; margin: 52px auto; 
+    border: 1px solid #ccc; position: relative; 
+    height: 680px;
+    padding: 10px;
+    padding-left: 60px;
+    background-color: #fff;
+    box-shadow: -15px -15px 20px #888888;
+    font-family: arial;
+}
+html {
+    overflow: hidden;
+    background-color: #ccc;
+}
+
+.paper{
+    height: 104%;
+    border-left: 1px solid pink;
+    position: relative;
+    top: -11px;
+}
+
+h1 {
+    text-align: center;
+    font-family: arial;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0;
+    padding-top: 5px
+}
+tr {
+    display: block;
+    border-bottom: 1px solid cornflowerblue;
+    border-collapse: collapse;
+    width: 557px;
+    position: relative;
+    left: -2px;
+}
+
+table{
+    padding-top: 20px;
+}
+
+th {
+    text-transform: uppercase;
+    font-family: arial;
+    color: #000;
+}
+
+.holepunch{
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50px;
+    position: absolute;
+    left: 16px;
+    top: 95px;
+    box-shadow: -1px -1px 5px #000;
+}
+
+.middle{
+    top: 350px;
+}
+
+.bottom{
+    top: 585px;
+}
+
+.checkbox{
+    width: 50px;
+}
+
+td, th{
+    padding: 1px 5px;
+}
+
+td.checkbox, td.task, td.description{
+    border-right: 1px dashed #ccc;
+}
+
+td.modify{
+    font-size: 12px;
+}
+
+td.modify a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.modify a:hover{
+    color: #000;
+}
+
+.task{
+    width: 166px;
+    text-align: center;
+}
+
+.description{
+    width: 215px;
+    text-align: center;
+}
+
+.add{
+    text-align: center;
+}
+
+.add a{
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.add a:hover{
+    color: #000;
+}
+
+.check{
+    border: 1px solid #ccc;
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: -2px 1px 3px #ccc;
+}
