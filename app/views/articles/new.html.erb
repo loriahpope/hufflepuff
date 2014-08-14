@@ -1,7 +1,37 @@
-<h1>Add Task</h1>
-
-<%= render 'form' %>
-
-<div class="add">
-	<%= link_to 'Cancel', articles_path %>
+<div class="holepunch top">
 </div>
+
+<div class="holepunch middle">
+</div>
+
+<div class="holepunch bottom">
+</div>
+
+<div class="paper">
+	<h1 class="addTask">Add Task</h1>
+
+	<%= render 'form' %>
+
+	<div class="add">
+		<%= link_to 'Cancel', articles_path %>
+	</div>
+</div>
+
+
+<table>
+<tbody>
+	<% i = 0 %>
+	<% num = 29 %>
+
+	<% while i < num  do %>
+		<tr class="new"></tr>
+		<% i += 1 %>
+	<% end %>
+
+</tbody>
+</table>
+	
+
+		   
+
+				

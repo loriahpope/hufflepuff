@@ -1,128 +1,223 @@
+/* line 1, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
 body {
-    width: 550px; margin: 52px auto; 
-    border: 1px solid #ccc; position: relative; 
-    height: 680px;
-    padding: 10px;
-    padding-left: 60px;
-    background-color: #fff;
-    box-shadow: -15px -15px 20px #888888;
-    font-family: arial;
+  width: 550px;
+  margin: 52px auto;
+  border: 1px solid #ccc;
+  position: relative;
+  height: 680px;
+  padding: 10px;
+  padding-left: 60px;
+  background-color: #fff;
+  box-shadow: -15px -15px 20px #888888;
+  font-family: arial;
 }
+
+/* line 11, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
 html {
-    overflow: hidden;
-    background-color: #ccc;
+  overflow: hidden;
+  background-color: #ccc;
 }
 
-.paper{
-    height: 104%;
-    border-left: 1px solid pink;
-    position: relative;
-    top: -11px;
+/* line 16, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.paper {
+  height: 104%;
+  border-left: 1px solid pink;
+  position: relative;
+  top: -11px;
 }
 
+/* line 23, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
 h1 {
-    text-align: center;
-    font-family: arial;
-    text-transform: uppercase;
-    color: #000;
-    margin: 0;
-    padding-top: 5px
+  text-align: center;
+  font-family: arial;
+  text-transform: uppercase;
+  color: #000;
+  margin: 0;
+  padding-top: 5px;
 }
+
+/* line 31, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
 tr {
-    display: block;
-    border-bottom: 1px solid cornflowerblue;
-    border-collapse: collapse;
-    width: 557px;
-    position: relative;
-    left: -2px;
+  display: block;
+  border-bottom: 1px solid cornflowerblue;
+  border-collapse: collapse;
+  width: 557px;
+  position: relative;
+  left: -2px;
 }
 
-table{
-    padding-top: 20px;
+/* line 40, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+table {
+  padding-top: 20px;
 }
 
+/* line 44, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
 th {
-    text-transform: uppercase;
-    font-family: arial;
-    color: #000;
+  text-transform: uppercase;
+  font-family: arial;
+  color: #000;
 }
 
-.holepunch{
-    width: 30px;
-    height: 30px;
-    background-color: #ccc;
-    border-radius: 50px;
-    position: absolute;
-    left: 16px;
-    top: 95px;
-    box-shadow: -1px -1px 5px #000;
+/* line 50, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.holepunch {
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 50px;
+  position: absolute;
+  left: 16px;
+  top: 95px;
+  box-shadow: -1px -1px 5px #000;
 }
 
-.middle{
-    top: 350px;
+/* line 61, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.middle {
+  top: 350px;
 }
 
-.bottom{
-    top: 585px;
+/* line 65, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.bottom {
+  top: 585px;
 }
 
-.checkbox{
-    width: 50px;
+/* line 69, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.checkbox {
+  width: 50px;
 }
 
-td, th{
-    padding: 1px 5px;
+/* line 73, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+td, th {
+  padding: 1px 5px;
 }
 
-td.checkbox, td.task, td.description{
-    border-right: 1px dashed #ccc;
+/* line 77, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+td.checkbox, td.task, td.description {
+  border-right: 1px dashed #ccc;
 }
 
-td.modify{
-    font-size: 12px;
+/* line 81, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+td.modify {
+  font-size: 12px;
 }
 
-td.modify a{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    color: #ccc;
+/* line 85, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+td.modify a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #ccc;
 }
 
-.modify a:hover{
-    color: #000;
+/* line 92, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.modify a:hover {
+  color: #000;
 }
 
-.task{
-    width: 166px;
-    text-align: center;
+/* line 96, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.task {
+  width: 166px;
+  text-align: center;
 }
 
-.description{
-    width: 215px;
-    text-align: center;
+/* line 101, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.description {
+  width: 215px;
+  text-align: center;
 }
 
-.add{
-    text-align: center;
+/* line 106, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.add {
+  text-align: center;
+  z-index: 5;
 }
 
-.add a{
-    text-transform: uppercase;
-    font-size: 12px;
-    text-decoration: none;
-    color: #ccc;
+/* line 110, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.add a {
+  text-transform: uppercase;
+  font-size: 12px;
+  text-decoration: none;
+  color: #ccc;
 }
 
-.add a:hover{
-    color: #000;
+/* line 117, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.add a:hover {
+  color: #000;
 }
 
-.check{
-    border: 1px solid #ccc;
-    width: 10px;
-    height: 10px;
-    margin: 0 auto;
-    border-radius: 2px;
-    box-shadow: -2px 1px 3px #ccc;
+/* line 121, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.check {
+  border: 1px solid #ccc;
+  width: 10px;
+  height: 10px;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: -2px 1px 3px #ccc;
+}
+
+/* line 130, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.taskName {
+  position: relative;
+  top: 24px;
+  left: 10px;
+  z-index: 5;
+}
+
+/* line 137, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.taskDescription {
+  z-index: 4;
+  position: relative;
+  top: -46px;
+  left: 9px;
+}
+
+/* line 144, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+.taskName br, .taskDescription br {
+  display: none;
+}
+
+/* line 148, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+tr.new {
+  top: -702px;
+  height: 21px;
+}
+
+/* line 152, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+input#article_title {
+  position: relative;
+  left: 10px;
+  top: -3px;
+  border: none;
+  padding: 0px;
+  font-size: 13px;
+}
+
+/* line 159, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+form#new_article {
+  z-index: 5;
+}
+
+/* line 162, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+textarea#article_text {
+  margin: 2px;
+  height: 77px;
+  width: 158px;
+}
+
+/* line 168, /Users/lpope/Desktop/Ruby/blog/app/assets/stylesheets/articles.css.scss */
+label {
+  position: relative;
+  top: -3px;
+}
+
+textarea#article_text {
+    position: relative; top: 86px; height: 127px; width: 305px; border: none; resize: none; cursor: text; background-color: rgba(255, 255, 255, 0); font-size: 13px; line-height: 23px;
+}
+
+.taskDescription label {
+    top: -27px;
+}
+
+.addTask{
+    position: relative;
+    top: 23px;
 }
